@@ -2,6 +2,7 @@ const Express = require("express");
 const app = Express();
 const path = require("path");
 
+
 console.log(__dirname);
 console.log(path.join(__dirname, "../public"));
 
